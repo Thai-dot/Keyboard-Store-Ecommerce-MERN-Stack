@@ -10,8 +10,14 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
+  text-decoration: none !important;
+  
 }
 
 .test{
   height: 1000px;
+}
+
+.priceColor{
+  color: #ffc107;
 }
