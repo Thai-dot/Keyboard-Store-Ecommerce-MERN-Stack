@@ -14,10 +14,32 @@
   
 }
 
+.MainBody{
+   height:100vh;
+  display:flex; 
+  flex-direction:column; 
+}
+
 .test{
   height: 1000px;
 }
 
 .priceColor{
   color: #ffc107;
+}
+
+.footerSetting{
+ margin-top:auto !important;; 
+}
+.rowFooter{
+  width: 100%;
+  
+}
+
+.colFooter{
+  margin-left: 120px;
+}
+
+.mt-10{
+  margin-top: 110px;
 }
