@@ -23,7 +23,7 @@ const HomeCard = () => {
           console.log(error);
         }
      
-    }, [keyboards]);
+    }, []);
 
     if(loading){
       return <Loading />
@@ -31,8 +31,8 @@ const HomeCard = () => {
   return (
     <div>
       <Row xs={1} md={4} className="g-4">
-        {keyboards.map((keyboard) => (
-          <Col>
+        {keyboards.map((keyboard,index) => (
+          <Col key={index}>
             <Card>
               <Card.Img variant="top" src={keyboard.keyboardImage} />
               <Card.Body>

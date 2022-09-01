@@ -43,3 +43,8 @@
 .mt-10{
   margin-top: 110px;
 }
+
+.px-10{
+  padding-left: 160px;
+  padding-right: 160px;
+}

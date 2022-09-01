@@ -1,6 +1,7 @@
 import React from "react";
 import Home from "./pages/Home";
 import Product from "./pages/Product";
+import Login from "./pages/Login";
 import FooterLayout from "./components/FooterLayout";
 import NavbarLayout from "./components/NavbarLayout";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
@@ -15,6 +16,7 @@ const App = () => {
           <Route exact path="/" element={<Home />} />
           <Route exact path="/home" element={<Home />} />
           <Route exact path="/keyboard/product/:productId" element={<Product />} />
+          <Route exact path="/login" element={<Login />} />
         </Routes>
         <FooterLayout />
       </Router>

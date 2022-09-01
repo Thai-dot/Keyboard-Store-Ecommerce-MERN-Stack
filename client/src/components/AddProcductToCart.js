@@ -13,7 +13,6 @@ const AddProcductToCart = ({ keyboard }) => {
           Choose Color:{" "}
         </Form.Label>
         <Form.Select className="input-width">
-          <option>Color</option>
           {keyboardColor
             ? keyboardColor.map((color, index) => (
                 <option key={index} value={color}>
